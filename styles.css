@@ -1,0 +1,44 @@
+
+
+.container{
+  width: 1000px;
+  height: 50vh;
+  margin: 0 auto;
+}
+
+.row{
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.col{
+display: flex;
+flex-direction: column;
+width: 100%;
+}
+
+.box{
+  background-color: #FF6247;
+  margin: 1vh;
+}
+
+.box-1{
+  opacity: 25%;
+  width: 100%;
+  height: 100%;
+
+}
+.box-2{
+  opacity: 50%;
+  width: 100%;
+  height: 100%;
+}
+.box-3{
+  opacity: 75%;
+  width: 50%;
+}
+.box-4{
+  opacity: 100%;
+  width: 50%;
+}
