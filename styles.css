@@ -1,0 +1,145 @@
+html{
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #b675eb;
+}
+
+
+h1.main-text{
+  font-family: 'Red Hat Display', sans-serif;
+  text-transform: capitalize;
+  font-size: 7rem;
+  color:white;
+  margin: 3rem 0;
+}
+
+h4.subtitle-text{
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  letter-spacing: .5rem;
+  color: white;
+  margin-bottom: 0;
+}
+
+p.info-text{
+color: white;
+font-size: 2.2rem;
+line-height: 1.5;
+}
+
+.btn {
+  display: inline-block;
+text-transform: capitalize;
+font-size: 1rem;
+color: #333333;
+padding: 1.4rem 2.6rem;
+background-color: white;
+text-decoration: none;
+border-radius: 0.2rem;
+letter-spacing: .2rem;
+margin-top: 2rem;
+
+}
+
+.container{
+  position: relative;
+  width: 90%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+section{
+  position: relative;
+  display: flex;
+  height: 80vh;
+}
+
+
+section.hero-section{
+  background-color: #6356ff;
+}
+
+
+
+
+nav{
+position: absolute;
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+z-index: 100;
+top:0;
+/* background-color: yellow; */
+height: auto;
+}
+
+.logo{
+  padding: 1.3rem 0 1.3rem 1.3rem;
+  width: 18rem;
+  height: auto;
+}
+
+.logo img{
+  width: 100%;
+  height: auto;
+}
+
+.main-nav{
+  width: auto;
+}
+
+ul.main-nav-list{
+  list-style: none;
+  width: 100%;
+  padding-left: 0;
+
+}
+
+.main-list-element{
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-list-element a{
+  background-color: #6356ff;
+  padding: 1.3rem;
+  font-size: 1.5rem;
+  margin: 0;
+  color: white;
+}
+
+.left-side{
+  display: flex;
+  align-items: center;
+  flex:3;
+
+}
+
+.right-side{
+  flex:4;
+}
+
+.hero-img-container{
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-image: url(Assets/images/portrait-1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-img-container img{
+  height: 100%;
+  overflow: hidden;
+}
+
+.block-text{
+  margin-left: 3rem;
+}
